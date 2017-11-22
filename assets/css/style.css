@@ -1,0 +1,159 @@
+*{
+	margin:0;
+	padding:0;
+	font-family:arial;
+	font-size:14px;
+	}
+	body{
+		onload="slider()"
+	}
+
+#topo{
+	height:30px;
+	background-color:#555555;
+}
+.topoint{
+	width:100%;
+	max-width:1280px;
+	height:30px;
+	margin:auto;
+
+}
+.ladoesquerdo{
+	width: 50%;
+	height: 30px;
+	float:left;
+
+
+}
+.ladoesquerdo ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+
+.ladoesquerdo li{
+	float:left;
+	height:30px;
+	line-height:30px;
+	margin-left:8px;
+	margin-right:8px;
+	font-family:arial;
+	font-size:14px;
+
+}
+
+.ladoesquerdo a{
+	text-decoration:none;
+	color:#FFFFFF;
+}
+
+
+.ladodireito{
+	width: 50%;
+	height: 30px;
+	float:right;
+}
+#topobusca{
+  width: 130px;
+	height: 22px;
+	margin-right:4px;
+	margin-left:4px;
+	outline:0;
+}
+
+
+.ladodireito input, img{
+	float:right;
+	margin:2px;
+}
+
+.banner{
+height:300px;
+
+}
+
+.bannerint{
+	width:100%;
+	max-width:1280px;
+	height:300px;
+	margin:auto;
+	margin-top:5px;
+	animation: slide 20s infinite;
+	animation-direction:alternate;
+
+
+}
+.logo{
+	height:100px;
+
+}
+.logoint{
+	width:100%;
+	max-width:1280px;
+	height:100px;
+	margin:auto;
+	margin-top:10px;
+
+}
+
+.logoimg{
+	width:300px;
+	height:300px;
+	margin:auto;
+}
+
+
+.menu{
+	height:50px;
+	margin-top:10px;
+	background-color:#e3e8f2;
+
+}
+
+
+.menuint{
+	width: 100%;
+	max-width:1050px;
+	height:50px;
+	margin: auto;
+
+}
+.menuint ul{
+	margin:0;
+	padding:0;
+	list-style: none;
+	margin-left:150px;
+}
+
+.menuint li {
+	float: left;
+	height: 50px;
+	line-height: 50px;
+	margin-left: 10px;
+	margin-right: 10px;
+
+}
+
+.menuint a {
+	text-decoration:none;
+	color:#000;
+}
+
+
+
+
+@keyframes slide{
+	0% ,30%{
+			background-image: url(../image/buque.jpg);
+	}
+	35% , 65%{
+		background-image: url(../image/noiva2.jpg);
+
+	}
+	70%, 100%{
+		background-image: url(../image/noiva3.jpg);
+
+	}
+
+}
